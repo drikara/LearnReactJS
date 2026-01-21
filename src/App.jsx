@@ -16,7 +16,7 @@ import Chronometre from "./Chronometre";
 import Recherches from "./Recherche";
 import CitationAleatoire from "./Citation";
 import SaisieText from "./SaisieText";
-
+import ToggleSwitch from "./ToggleSwitch";
 
 
 export default function App(){
@@ -37,6 +37,11 @@ return (
         <Toogle />
          
       </div>
+
+
+    <div className="mx-auto max-w-md">
+      <ToggleSwitch />
+    </div>
       <div className="mt-5">
         <SaisieText />
       </div>
