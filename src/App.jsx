@@ -15,7 +15,7 @@ import ListeUsers from "./Api";
 import Chronometre from "./Chronometre";
 import Recherches from "./Recherche";
 import CitationAleatoire from "./Citation";
-
+import SaisieText from "./SaisieText";
 
 
 
@@ -36,6 +36,9 @@ return (
       <div className="text-center mx-auto max-w-md mb-4 rounded-md w-full">
         <Toogle />
          
+      </div>
+      <div className="mt-5">
+        <SaisieText />
       </div>
       <div className="mt-5">
         <CitationAleatoire />
