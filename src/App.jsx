@@ -18,6 +18,12 @@ import CitationAleatoire from "./Citation";
 import SaisieText from "./SaisieText";
 import ToggleSwitch from "./ToggleSwitch";
 import ListeCourses from "./ListeCourses";
+import FormulaireUtilisateur from "./FormulaireUtilisateur";
+import FormulaireInscription from "./FormulaireInscription";
+import CalculateurPourboire from "./CalculateurPourboire";
+
+
+
 
 export default function App(){
   const nom = "jean";
@@ -30,23 +36,33 @@ return (
   <div className="App">
     <Header />
     <>
+ 
+      <CalculateurPourboire/>
+   
   
     <div className="mx-auto max-w-md">
       <ToggleSwitch />
     </div>
+  
 
 <div>
     <div className="mx-auto max-w-2xl">
       <ListeCourses />
     </div>
 </div>
-    
 
+    
+<div>
+   <FormulaireUtilisateur/>
+</div>
     <div className="mx-auto max-w-2xl"> 
         <footer className="text-center p-4 mt-5 border-t border-gray-300">
           <p className="text-gray-600">&copy; 2024 Mon Application React. Tous droits réservés.</p>
         </footer>
 
+    </div>
+    <div>
+       <FormulaireInscription/>
     </div>
     
     </>
